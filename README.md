@@ -2,26 +2,26 @@
 
 Sherlocked is a full-stack web application designed to help detectives and investigators manage complex criminal cases. Built with Java, Spring Boot, and Thymeleaf, this project simulates real-world investigation workflows including suspect tracking, witness testimonies, evidence handling, and case timeline management.
 
-# Features
+## Features
 
-🗂️ Create, update, and archive investigation cases
+- Create, update, and archive investigation cases
 
-🧑‍💼 Add and manage suspects, witnesses, and investigators
+- Add and manage suspects, witnesses, and investigators
 
-🧾 Attach testimonies and evidence (with image upload support)
+- Attach testimonies and evidence (with image upload support)
 
-📍 Manage detailed locations (with city, country, coordinates)
+- Manage detailed locations (with city, country, coordinates)
 
-🕰️ Track events in each case via a chronological timeline
+- Track events in each case via a chronological timeline
 
-🔗 Visualize and store connections between people and cases
+- Visualize and store connections between people and cases
 
-🧠 Blood type management and status filtering
+- Blood type management and status filtering
 
-🧩 Extendable architecture for intelligent data analysis
+- Extendable architecture for intelligent data analysis
 
 
-# Tech Stack
+## Tech Stack
 
 Backend: Java 17, Spring Boot, Spring MVC, Spring Data JPA
 
@@ -32,7 +32,7 @@ Database: H2 (in-memory, for dev), MySQL (for prod)
 Other: Lombok, MultipartFile (for file upload), Enum mapping
 
 
-# Sample Functionality
+## Sample Functionality
 
 Create Case → Add suspects, assign investigator
 
